@@ -32,7 +32,7 @@ jobs:
 
       - name: Extract Project
         run: |
-          unzip -o GymTrackerAndroid_Project.zip
+          unzip -o GymTrackerAndroid_Project_with_video.zip
           cp -r GymTrackerAndroid/. .
 
       - name: Setup Gradle
